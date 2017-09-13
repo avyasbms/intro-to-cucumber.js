@@ -13,13 +13,13 @@
     "events": "cucumber.js events/features -r events/steps",
 
 
-    "simple-json": "cucumber.js simple/features -r simple/steps",
-    "background-json": "cucumber.js background/features -r background/steps",
-    "outline-json": "cucumber.js outline/features -r outline/steps",
-    "datatable-json": "cucumber.js datatable/features -r datatable/steps",
-    "hooks-json": "cucumber.js hooks/features -r hooks/steps",
-    "world-json": "cucumber.js world/features -r world/steps",
-    "events-json": "cucumber.js events/features -r events/steps"
+    "simplejson": "cucumber.js simple/features -r simple/steps -f json > cucumber-simple.json",
+    "backgroundjson": "cucumber.js background/features -r background/steps -f json > cucumber-background.json",
+    "outlinejson": "cucumber.js outline/features -r outline/steps -f json > cucumber-outline.json",
+    "datatablejson": "cucumber.js datatable/features -r datatable/steps -f json > cucumber-datatable.json",
+    "hooksjson": "cucumber.js hooks/features -r hooks/steps -f json > cucumber-hooks.json",
+    "worldjson": "cucumber.js world/features -r world/steps -f json > cucumber-world.json",
+    "eventsjson": "cucumber.js events/features -r events/steps -f json > cucumber-events.json"
 
 
   },
