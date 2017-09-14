@@ -4,22 +4,22 @@
   "description": "Examples for \"Introduction to Cucumber.js\"",
   "main": "index.js",
   "scripts": {
-    "simple": "cucumber.js simple/features -r simple/steps",
-    "background": "cucumber.js background/features -r background/steps",
-    "outline": "cucumber.js outline/features -r outline/steps",
-    "datatable": "cucumber.js datatable/features -r datatable/steps",
-    "hooks": "cucumber.js hooks/features -r hooks/steps",
-    "world": "cucumber.js world/features -r world/steps",
-    "events": "cucumber.js events/features -r events/steps",
+    "simple": "./node_modules/.bin/cucumber.js simple/features -r simple/steps",
+    "background": "./node_modules/.bin/cucumber.js background/features -r background/steps",
+    "outline": "./node_modules/.bin/cucumber.js outline/features -r outline/steps",
+    "datatable": "./node_modules/.bin/cucumber.js datatable/features -r datatable/steps",
+    "hooks": "./node_modules/.bin/cucumber.js hooks/features -r hooks/steps",
+    "world": "./node_modules/.bin/cucumber.js world/features -r world/steps",
+    "events": "./node_modules/.bin/cucumber.js events/features -r events/steps",
 
 
-    "simplejson": "cucumber.js simple/features -r simple/steps -f json > cucumber_simple.json",
-    "backgroundjson": "cucumber.js background/features -r background/steps -f json > cucumber_background.json",
-    "outlinejson": "cucumber.js outline/features -r outline/steps -f json > cucumber_outline.json",
-    "datatablejson": "cucumber.js datatable/features -r datatable/steps -f json > cucumber_datatable.json",
-    "hooksjson": "cucumber.js hooks/features -r hooks/steps -f json > cucumber_hooks.json",
-    "worldjson": "cucumber.js world/features -r world/steps -f json > cucumber_world.json",
-    "eventsjson": "cucumber.js events/features -r events/steps -f json > cucumber_events.json"
+    "simplejson": "./node_modules/.bin/cucumber.js simple/features -r simple/steps -f json > cucumber_simple.json",
+    "backgroundjson": "./node_modules/.bin/cucumber.js background/features -r background/steps -f json > cucumber_background.json",
+    "outlinejson": "./node_modules/.bin/cucumber.js outline/features -r outline/steps -f json > cucumber_outline.json",
+    "datatablejson": "./node_modules/.bin/cucumber.js datatable/features -r datatable/steps -f json > cucumber_datatable.json",
+    "hooksjson": "./node_modules/.bin/cucumber.js hooks/features -r hooks/steps -f json > cucumber_hooks.json",
+    "worldjson": "./node_modules/.bin/cucumber.js world/features -r world/steps -f json > cucumber_world.json",
+    "eventsjson": "./node_modules/.bin/cucumber.js events/features -r events/steps -f json > cucumber_events.json"
 
 
   },
